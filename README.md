@@ -42,34 +42,27 @@
 ---
 ## Compile and Run Your Program.
 
-- Just like in the previous Lab0, go to the Terminal at the top left, if your window is not maximized you might need to click on the three dots and then click Terminal then new terminal.
-
-![alt text](images/image6.png)
-
-- You should see the following page.
-![alt text](images/image7.png)
+- Just like in the previous Lab0, open up the Developer Command Prompt if you are using Windows or desktop computers. If you are using mac then open up the terminal program.
 
 - In the terminal window run the following.
 
 ```bash
+cd /
+cd [path_to_lab1_folder]
 mkdir build
 cd build
 cmake ..
-cd ..
 ```
 
-- If done correctly you should see the following screen.
-
-![alt text](images/image8.png)
 ---
 ### Window/Desktop Users
 - Next you will do the following everytime you make changes to your program and you need to rerun your program. Mac users jump to next section. You will do the same except a different way. This is the most important part of the lab!
 
 ```bash
-msbuild .\build\ALL_BUILD.vcxproj
-cd build/Debug
+msbuild ALL_BUILD.vcxproj
+cd /Debug
 ./lab1.exe
-cd ../..
+cd ..
 ```
 ---
 ### MAC users
