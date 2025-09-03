@@ -4,6 +4,7 @@
 // Date: (Insert today’s date here)
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 // Function 1: Display student information
