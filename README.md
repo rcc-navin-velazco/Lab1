@@ -6,7 +6,7 @@
 # C++ Programming Lab 1: Outputting to the Console Window
 
 
-
+---
 
 ## Setting up 
 
@@ -33,7 +33,7 @@
 - Once you have done that you should see the following
 
 ![alt text](images/image4.png)
-
+---
 ## Compile and Run Your Program.
 
 - Just like in the previous Lab0, go to the Terminal at the top left, if your window is not maximized you might need to click on the three dots and then click Terminal then new terminal.
@@ -43,7 +43,7 @@
 - You should see the following page.
 ![alt text](images/image7.png)
 
-- In the terminal windows run the following.
+- In the terminal window run the following.
 
 ```bash
 cd build
@@ -54,13 +54,14 @@ cd ..
 - If done correctly you should see the following screen.
 
 ![alt text](images/image8.png)
-
+---
 ### Window/Desktop Users
 - Next you will do the following everytime you make changes to your program and you need to rerun your program. Mac users jump to next section. You will do the same except a different way. This is the most important part of the lab!
 
 ```bash
 ./run.ps1
 ```
+---
 ### MAC users
 
 Make sure you are in the build directory in the terminal
@@ -73,6 +74,7 @@ cd build
 make
 ./lab1
 ```
+---
 ## Starting Lab 1
 
 - Go the to src folder and open exercises.cpp file.
@@ -81,7 +83,6 @@ make
 ![alt text](images/image5.png)
 
 - Everytime you want to run your program after you make changes,
-- Go back to the section that I mentioned above that needs to be repeated everytime
-- you run your program.
+Go back to the section that I mentioned above that needs to be repeated everytime you run your program.
 
 
