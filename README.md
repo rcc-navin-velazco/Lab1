@@ -61,19 +61,17 @@ cd ..
 ```bash
 ./run.ps1
 ```
-- You should see the following in between each command. 
-
-![alt text](images/image9.png)
-
-![alt text](images/image10.png)
-
-![alt text](images/image11.png)
-
-![alt text](images/image12.png)
-
 ### MAC users
+
+Make sure you are in the build directory in the terminal
+
+```bash
+cd build
+```
+- Now everytime you need to run your code do the following.
 ```bash 
-./run.sh
+make
+./lab1
 ```
 ## Starting Lab 1
 
