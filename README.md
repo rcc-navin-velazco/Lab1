@@ -53,7 +53,11 @@ mkdir build
 cd build
 cmake ..
 ```
-
+- There was a bit confusion last time with [path_to_lab1_folder]
+- You need to replace that with the path to your folder for example in my computer I would replace it as
+```bash
+/Users/navin/source/repos/Lab1
+```
 ---
 ### Window/Desktop Users
 - Next you will do the following everytime you make changes to your program and you need to rerun your program. Mac users jump to next section. You will do the same except a different way. This is the most important part of the lab!
