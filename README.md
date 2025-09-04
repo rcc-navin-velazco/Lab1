@@ -61,6 +61,7 @@ cmake ..
 ```
 
 - Just a warning, you need to be in the folder that contains all the files for Lab1.
+- When you download the lab1 zip and extract make sure you confirm that you have all the files in the folder
 ---
 ### Window/Desktop Users
 - Next you will do the following everytime you make changes to your program and you need to rerun your program. Mac users jump to next section. You will do the same except a different way. This is the most important part of the lab!
