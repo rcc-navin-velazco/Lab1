@@ -10,6 +10,7 @@
 
 ## Setting up 
 
+
 - Right now you should be reading this project in my GitHub page.
 
 - What you will do, is download the this project as a zip.
@@ -56,16 +57,18 @@ cmake ..
 - There was a bit confusion last time with [path_to_lab1_folder]
 - You need to replace that with the path to your folder for example in my computer I would replace it as
 ```bash
-/Users/navin/source/repos/Lab1
+/Users/navin/source/repos/Lab1-master/Lab1-master
 ```
+
+- Just a warning, you need to be in the folder that contains all the files for Lab1.
 ---
 ### Window/Desktop Users
 - Next you will do the following everytime you make changes to your program and you need to rerun your program. Mac users jump to next section. You will do the same except a different way. This is the most important part of the lab!
 
 ```bash
 msbuild ALL_BUILD.vcxproj
-cd /Debug
-./lab1.exe
+cd Debug
+lab1
 cd ..
 ```
 ---
